@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background: #f2f6f5;
+    color: #1b2b30;
+    font-family: 'DM Sans', sans-serif
+}
+
+.shell {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 22px
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-bottom: 1px solid #dbe5e2;
+    padding-bottom: 20px
+}
+
+.mark {
+    width: 44px;
+    height: 44px;
+    background: #164e48;
+    color: white;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    font: 800 24px Manrope
+}
+
+small {
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    color: #63827b;
+    font-weight: 700
+}
+
+h1 {
+    font: 700 21px Manrope;
+    margin: 3px 0
+}
+
+.demo {
+    margin-left: auto;
+    background: #fff1d9;
+    color: #86602b;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700
+}
+
+.hero {
+    padding: 42px 0 20px
+}
+
+.hero h2 {
+    font: 800 33px Manrope;
+    margin: 9px 0
+}
+
+.hero p {
+    color: #637279;
+    line-height: 1.6;
+    max-width: 620px
+}
+
+.panel {
+    background: white;
+    border: 1px solid #e0e8e6;
+    border-radius: 15px;
+    padding: 23px;
+    margin: 14px 0;
+    box-shadow: 0 8px 26px #173d3a08
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+textarea {
+    width: 100%;
+    min-height: 110px;
+    border: 1px solid #d4dfdc;
+    border-radius: 9px;
+    padding: 13px;
+    font: 14px 'DM Sans';
+    resize: vertical
+}
+
+button {
+    border: 0;
+    border-radius: 8px;
+    background: #17564e;
+    color: white;
+    font-weight: 700;
+    padding: 12px 17px;
+    margin-top: 13px;
+    cursor: pointer
+}
+
+button:disabled {
+    opacity: .5
+}
+
+.secondary {
+    background: #edf1f0;
+    color: #35474a;
+    margin-left: 8px
+}
+
+.error {
+    color: #b42318
+}
+
+.resultHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.resultHead h2 {
+    text-transform: capitalize;
+    font: 700 23px Manrope;
+    margin: 6px 0 14px
+}
+
+.pill {
+    background: #e7f3ed;
+    color: #216447;
+    border-radius: 18px;
+    padding: 7px 10px;
+    font-size: 10px;
+    font-weight: 700
+}
+
+.approval {
+    background: #f6faf8;
+    border: 1px solid #dce9e4;
+    padding: 17px;
+    border-radius: 11px;
+    margin-top: 18px
+}
+
+.approval h3,
+.evidence h3 {
+    font: 700 17px Manrope
+}
+
+.approval li {
+    margin: 8px 0;
+    line-height: 1.4;
+    color: #46575b
+}
+
+.notice {
+    background: #fff3dc;
+    color: #805b16;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 12px
+}
+
+.evidence {
+    margin-top: 23px
+}
+
+.evidence article {
+    border-top: 1px solid #e7eeeb;
+    padding: 12px 0
+}
+
+.evidence article small {
+    display: block;
+    margin: 5px 0
+}
+
+.evidence article p {
+    font-size: 13px;
+    color: #5d6b70;
+    line-height: 1.5
+}
+
+.success {
+    background: #eaf5ef;
+    padding: 13px;
+    border-radius: 8px;
+    color: #205d40
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #7b898d;
+    font-size: 11px;
+    padding: 20px 2px
+}
+
+footer span {
+    color: #a07835
+}
+
+@media(max-width:600px) {
+    .shell {
+        padding: 18px 13px
+    }
+
+    .hero h2 {
+        font-size: 27px
+    }
+
+    .panel {
+        padding: 16px
+    }
+
+    footer {
+        display: block;
+        line-height: 2
+    }
+}
